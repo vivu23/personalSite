@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-size: 200%
+}
+
+h1{
+  color: #D2691E;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5.625rem;
+  margin: 50 auto 0 auto;
+}
+
+h2{
+  color: 	#FF7F50;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #FF7F50;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+hr{
+  border: dotted #D2691E 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p{
+  color: #8B4513;
+  font-family: 'PT Mono', monospace;
+}
+
+a{
+  color: #D2691E;
+  font-family: 'PT Mono', monospace;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #8B4513;
+}
+
+.message{
+  padding-bottom: 20px;
+}
+
+.myTitle{
+  color: #D2691E;
+  font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+}
+
+.top-section{
+  background-color: #E9967A;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-section{
+  background-color: #FFDAB9;
+  padding: 100px 0;
+}
+
+.Website{
+  width:30%;
+  float: right;
+  margin-right: 30px;
+}
+
+.piechart{
+  width:30%;
+  float: left;
+  margin-left: 30px;
+}
+
+.projects-row{
+  width: 50%;
+  height: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.bottom-section{
+    background-color: #E9967A;
+    padding: 50px 0 20px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.profile{
+  width: 40%;
+  margin: auto auto;
+}
+
+.signature{
+  color: #fff1e9;
+  font-family: 'PT Mono', monospace;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #fb8691;
+  background-image: -webkit-linear-gradient(top, #FA8072, #FFA07A);
+  background-image: -moz-linear-gradient(top, #FA8072, #FFA07A);
+  background-image: -ms-linear-gradient(top, #FA8072, #FFA07A);
+  background-image: -o-linear-gradient(top, #FA8072, #FFA07A);
+  background-image: linear-gradient(to bottom, #FA8072, #FFA07A);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Cabin Condensed";
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fa5477;
+  background-image: -webkit-linear-gradient(top, #E9967A, #ef4b4b);
+  background-image: -moz-linear-gradient(top, #E9967A, #ef4b4b);
+  background-image: -ms-linear-gradient(top, #E9967A, #ef4b4b);
+  background-image: -o-linear-gradient(top, #E9967A, #ef4b4b);
+  background-image: linear-gradient(to bottom, #E9967A, #ef4b4b);
+  text-decoration: none;
+}
