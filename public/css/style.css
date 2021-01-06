@@ -32,6 +32,13 @@ hr{
 p{
   color: #8B4513;
   font-family: 'PT Mono', monospace;
+  font-size: 25px;
+}
+
+p span{
+  color: #4169E1;
+  display: block;
+  text-align: center;
 }
 
 a{
@@ -74,20 +81,36 @@ a:hover{
 .Website{
   width:30%;
   float: right;
-  margin-right: 30px;
+  margin : 35px;
+  padding-top: 10px;
 }
 
 .piechart{
   width:30%;
   float: left;
-  margin-left: 30px;
+  margin: 30px;
 }
 
-.projects-row{
+.medicine{
+  position: inherit;
+  top: 50%;
+  width:20%;
+  float: right;
+  margin: 5px;
+}
+
+.projects-row1{
   width: 50%;
   height: 50%;
   margin: 100px auto 100px auto;
-  text-align: left;
+  text-align: justify;
+}
+
+.projects-row2{
+  width: 50%;
+  height: 50%;
+  margin: 100px auto 100px auto;
+  text-align: justify;
 }
 
 .bottom-section{
@@ -146,7 +169,7 @@ a:hover{
 }
 
 .title{
-  font-size: 50px;
+  font-size: 45px;
   color: #FF7F50;
   font-family: 'Luckiest Guy', cursive;
 }
@@ -155,4 +178,15 @@ a:hover{
   font-size: 30px;
   color: #FF7F50;
   font-family: 'Luckiest Guy', cursive;
+}
+
+.title3{
+  font-size: 30px;
+  color: #FF7F50;
+  font-family: 'Luckiest Guy', cursive;
+}
+.arrow3{
+    width: 45px;
+    display: inline-block;
+    float: left;
 }
